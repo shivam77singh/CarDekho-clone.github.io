@@ -1,5 +1,5 @@
 /* <!-- <<<<====home-page style starts here=====>>> --> */
-.home-page {
+.home-page {/*oueter most container */
   width: 100%;
   height: 88vh;
   display: flex;
@@ -16,8 +16,9 @@
   height: 100%;
   z-index: 2;
 }
+/* <!-- <<<<====home-page CAR FORM style starts here=====>>> --> */
 
-.car-form {
+.car-form {/*oueter most container of form */
   width: 350px;
   height: 450px;
   background-color: rgb(255, 255, 255);
@@ -49,8 +50,6 @@
   height: 18%;
 }
 .form-select {
-  /* background-color: blueviolet; */
-
   display: flex;
   justify-content: center;
   height: 14%;
@@ -101,6 +100,9 @@
   justify-content: flex-end;
   font-size: 0.9rem;
 }
+/* <!-- <<<<====home-page CAR FORM style ends here=====>>> --> */
+
+/* <!-- <<<<====home-page CAROUSAL style starts here=====>>> --> */
 .carousal-container {
   position: absolute;
   left: 0;
@@ -156,5 +158,6 @@
 .carousal-btn > .carousal-btn-active {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
+/* <!-- <<<<====home-page CAROUSAL style ends here=====>>> --> */
 
 /* <!-- <<<<====home-page style ends here=====>>> --> */
